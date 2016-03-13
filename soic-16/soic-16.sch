@@ -1,0 +1,231 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:components
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "13 mar 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HEADER_8X1 P?
+U 1 1 56E559C7
+P 4400 4150
+F 0 "P?" H 4400 3450 60  0000 C CNN
+F 1 "HEADER_8X1" H 4400 4350 60  0001 C CNN
+F 2 "~" H 4450 4200 60  0000 C CNN
+F 3 "~" H 4450 4200 60  0000 C CNN
+F 4 "~" H 4500 3950 60  0001 C CNN "Part #"
+	1    4400 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L HEADER_8X1 P?
+U 1 1 56E559E0
+P 6850 3650
+F 0 "P?" H 6850 2950 60  0000 C CNN
+F 1 "HEADER_8X1" H 6850 3850 60  0001 C CNN
+F 2 "~" H 6900 3700 60  0000 C CNN
+F 3 "~" H 6900 3700 60  0000 C CNN
+F 4 "~" H 6950 3450 60  0001 C CNN "Part #"
+	1    6850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3550 5400 3550
+Wire Wire Line
+	5400 3650 4550 3650
+Wire Wire Line
+	4550 3750 5400 3750
+Wire Wire Line
+	5400 3850 4550 3850
+Wire Wire Line
+	4550 3950 5400 3950
+Wire Wire Line
+	4550 4050 5400 4050
+Wire Wire Line
+	5400 4150 4550 4150
+Wire Wire Line
+	4550 4250 5400 4250
+Wire Wire Line
+	5800 3550 6700 3550
+Wire Wire Line
+	6700 3650 5800 3650
+Wire Wire Line
+	5800 3750 6700 3750
+Wire Wire Line
+	6700 3850 5800 3850
+Wire Wire Line
+	5800 3950 6700 3950
+Wire Wire Line
+	6700 4050 5800 4050
+Wire Wire Line
+	5800 4150 6700 4150
+Wire Wire Line
+	6700 4250 5800 4250
+$Comp
+L BLANK_16PIN C?
+U 1 1 56E56429
+P 5600 3900
+F 0 "C?" H 5550 3450 60  0001 C CNN
+F 1 "BLANK_16PIN" H 5600 4400 60  0001 C CNN
+F 2 "~" H 5750 3950 60  0000 C CNN
+F 3 "~" H 5750 3950 60  0000 C CNN
+F 4 "~" H 5700 3750 60  0001 C CNN "Part #"
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BLANK_8PIN C?
+U 1 1 56E56442
+P 5600 3150
+F 0 "C?" H 5550 2900 60  0001 C CNN
+F 1 "BLANK_8PIN" H 5600 3450 60  0001 C CNN
+F 2 "~" H 5750 3000 60  0000 C CNN
+F 3 "~" H 5750 3000 60  0000 C CNN
+F 4 "~" H 5700 2800 60  0001 C CNN "Part #"
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3300 5300 3300
+Wire Wire Line
+	5300 3300 5300 3850
+Connection ~ 5300 3850
+Wire Wire Line
+	5400 3200 5200 3200
+Wire Wire Line
+	5200 3200 5200 3750
+Connection ~ 5200 3750
+Wire Wire Line
+	5400 3100 5100 3100
+Wire Wire Line
+	5100 3100 5100 3650
+Connection ~ 5100 3650
+Wire Wire Line
+	5400 3000 5000 3000
+Wire Wire Line
+	5000 3000 5000 3550
+Connection ~ 5000 3550
+Wire Wire Line
+	5800 3300 5900 3300
+Wire Wire Line
+	5900 3300 5900 3850
+Connection ~ 5900 3850
+Wire Wire Line
+	5800 3200 6000 3200
+Wire Wire Line
+	6000 3200 6000 3750
+Connection ~ 6000 3750
+Wire Wire Line
+	5800 3100 6100 3100
+Wire Wire Line
+	6100 3100 6100 3650
+Connection ~ 6100 3650
+Wire Wire Line
+	5800 3000 6200 3000
+Wire Wire Line
+	6200 3000 6200 3550
+Connection ~ 6200 3550
+$Comp
+L BLANK_5PIN C?
+U 1 1 56E56537
+P 5600 4600
+F 0 "C?" H 5550 4400 60  0001 C CNN
+F 1 "BLANK_5PIN" H 5600 4850 60  0001 C CNN
+F 2 "~" H 5750 4400 60  0000 C CNN
+F 3 "~" H 5750 4400 60  0000 C CNN
+F 4 "~" H 5700 4200 60  0001 C CNN "Part #"
+	1    5600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3950 5300 4500
+Wire Wire Line
+	5300 4500 5400 4500
+Connection ~ 5300 3950
+Wire Wire Line
+	5200 4050 5200 4600
+Wire Wire Line
+	5200 4600 5400 4600
+Connection ~ 5200 4050
+Wire Wire Line
+	5100 4150 5100 4700
+Wire Wire Line
+	5100 4700 5400 4700
+Connection ~ 5100 4150
+Wire Wire Line
+	5800 4500 5900 4500
+Wire Wire Line
+	5900 4500 5900 3950
+Connection ~ 5900 3950
+Connection ~ 6100 4150
+$Comp
+L BLANK_3PIN C?
+U 1 1 56E56871
+P 5600 5050
+F 0 "C?" H 5550 4850 60  0001 C CNN
+F 1 "BLANK_3PIN" H 5600 5300 60  0001 C CNN
+F 2 "~" H 5750 4850 60  0000 C CNN
+F 3 "~" H 5750 4850 60  0000 C CNN
+F 4 "~" H 5700 4650 60  0001 C CNN "Part #"
+	1    5600 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 4050 6000 4700
+Wire Wire Line
+	6000 4700 5800 4700
+Connection ~ 6000 4050
+Wire Wire Line
+	6100 4150 6100 4950
+Wire Wire Line
+	6100 4950 5800 4950
+Wire Wire Line
+	6200 4250 6200 5150
+Wire Wire Line
+	6200 5150 5800 5150
+Connection ~ 6200 4250
+Wire Wire Line
+	5000 4250 5000 5050
+Wire Wire Line
+	5000 5050 5400 5050
+Connection ~ 5000 4250
+$EndSCHEMATC

@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 13 Mar 2016 23:22:59 AEDT
+#
+$CMP GENERIC_CAPACITOR
+D Generic capacitor
+K generic capacitor
+$ENDCMP
+#
+$CMP GENERIC_RESISTOR
+D Generic resistor
+K generic resistor
+$ENDCMP
+#
+$CMP IRFML8244TRPBF
+D N-Channel MOSFET, 25V 5A, Rds(on)=30mΩ
+K N-Channel MOSFET
+F http://www.farnell.com/datasheets/1911843.pdf
+$ENDCMP
+#
+$CMP PHOTON
+D Particle Photon - dev board for P0 module
+K particle photon P0
+F https://docs.particle.io/datasheets/kits/photon/
+$ENDCMP
+#
+$CMP SN74HC165
+D WS2818B RGB LED with integrated controller (aka NeoPixel)
+K WS2812B RGB LED NEOPIXEL
+F http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+$ENDCMP
+#
+$CMP VARIABLE_RESISTOR
+D Generic resistor
+K generic resistor
+$ENDCMP
+#
+$CMP WS2812B
+D WS2818B RGB LED with integrated controller (aka NeoPixel)
+K WS2812B RGB LED NEOPIXEL
+F http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+$ENDCMP
+#
+#End Doc Library

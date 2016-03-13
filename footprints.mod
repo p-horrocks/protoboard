@@ -1,0 +1,423 @@
+PCBNEW-LibModule-V1  Fri 19 Feb 2016 21:59:10 AEDT
+# encoding utf-8
+Units mm
+$INDEX
+0805
+5050
+Header_2x1
+Header_4x2
+Minicast
+SOD-323
+SOIC-16
+SOT-23
+$EndINDEX
+$MODULE 0805
+Po 0 0 0 15 56C6F466 00000000 ~~
+Li 0805
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 1.8 1 1 0 0.15 N V 21 N "SM0805"
+T1 0 -1.8 1 1 0 0.15 N I 21 N "Val*"
+DS -0.2 0.9 0.2 0.9 0.15 21
+DS -0.2 -0.9 0.2 -0.9 0.15 21
+$PAD
+Sh "1" R 1.05 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.15 0
+$EndPAD
+$PAD
+Sh "2" R 1 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.15 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.1 0.1 0.1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 0805
+$MODULE 5050
+Po 0 0 0 15 56C6F488 00000000 ~~
+Li 5050
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.6 1 1 0 0.15 N V 21 N "5050"
+T1 0 -3.4 1 1 0 0.15 N I 21 N "VAL**"
+DC 3 2.8 3.2 2.9 0.15 21
+DS -2.5 2.5 2.5 2.5 0.15 21
+DS -2.5 -2.5 2.5 -2.5 0.15 21
+DS 2.5 -0.8 2.5 0.8 0.15 21
+DS -2.5 -0.8 -2.5 0.8 0.15 21
+$PAD
+Sh "1" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.45 -1.65
+$EndPAD
+$PAD
+Sh "2" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.45 1.65
+$EndPAD
+$PAD
+Sh "3" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.45 1.65
+$EndPAD
+$PAD
+Sh "4" R 1.5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.45 -1.65
+$EndPAD
+$EndMODULE 5050
+$MODULE Header_2x1
+Po 0 0 0 15 56C6F4FB 00000000 ~~
+Li Header_2x1
+Kw Header_2x1
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.3 1 1 0 0.15 N V 21 N "Header_2x1"
+T1 0 -2.2 1 1 0 0.15 N I 21 N "Val**"
+DS -2.54 1.27 -2.54 -1.27 0.1524 21
+DS -2.54 -1.27 2.54 -1.27 0.15 21
+DS 2.54 -1.27 2.54 1.27 0.1524 21
+DS 2.54 1.27 -2.54 1.27 0.1524 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_2x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Header_2x1
+$MODULE Header_4x2
+Po 0 0 0 15 56C6F51B 00000000 ~~
+Li Header_4x2
+Kw Header
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.6 1 1 0 0.15 N V 21 N "Header_4x2"
+T1 0 -3.5 1 1 0 0.15 N I 21 N "Val**"
+DS -5.08 -2.54 5.08 -2.54 0.15 21
+DS 5.08 -2.54 5.08 2.54 0.15 21
+DS 5.08 2.54 -5.08 2.54 0.15 21
+DS -5.08 2.54 -5.08 -2.54 0.15 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_4x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Header_4x2
+$MODULE Minicast
+Po 0 0 0 15 56C6F408 00000000 ~~
+Li Minicast
+Cd Minicast
+Kw Minicast
+Sc 0
+AR 
+Op 0 0 0
+T0 1 5.5 1 1 0 0.15 N V 21 N "Minicast"
+T1 0.3 -5.4 1 1 0 0.15 N I 21 N "VAL**"
+DS 1.905 -4.445 1.905 4.445 0.15 21
+DS -1.905 -4.445 -1.905 4.445 0.15 21
+DA -1.27 0 1.905 -3.175 900 0.15 21
+DS -1.905 -4.445 1.905 -4.445 0.15 21
+DS 1.905 4.445 -1.905 4.445 0.15 21
+$PAD
+Sh "2" C 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2.54
+$EndPAD
+$PAD
+Sh "3" C 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 2.54
+$EndPAD
+$EndMODULE Minicast
+$MODULE SOD-323
+Po 0 0 0 15 56C6F542 00000000 ~~
+Li SOD-323
+Sc 0
+AR 
+Op 0 0 0
+T0 0 1.9 1 1 0 0.15 N V 21 N "SOD-323"
+T1 0 -1.7 1 1 0 0.15 N I 21 N "VAL**"
+DS -1.1 0.8 1.1 0.8 0.15 21
+DS -1.1 -0.8 1.1 -0.8 0.15 21
+$PAD
+Sh "1" R 0.6 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0
+$EndPAD
+$PAD
+Sh "2" R 0.6 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0
+$EndPAD
+$EndMODULE SOD-323
+$MODULE SOIC-16
+Po 0 0 0 15 56C6F55F 00000000 ~~
+Li SOIC-16
+Sc 0
+AR 
+Op 0 0 0
+T0 6.9 0 1 1 900 0.15 N V 21 N "SOIC-16"
+T1 0 -4.6 1 1 0 0.15 N I 21 N "VAL**"
+DC -5.461 3.175 -5.207 3.175 0.15 21
+DS 5.715 2.54 5.207 2.54 0.15 21
+DS 5.715 -2.54 5.207 -2.54 0.15 21
+DS -5.715 2.54 -5.207 2.54 0.15 21
+DS -5.715 -2.54 -5.207 -2.54 0.15 21
+DS 5.715 -2.54 5.715 2.54 0.15 21
+DS -5.715 -2.54 -5.715 2.54 0.15 21
+$PAD
+Sh "1" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 2.7
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 2.7
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.7
+$EndPAD
+$PAD
+Sh "4" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.7
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.7
+$EndPAD
+$PAD
+Sh "6" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.7
+$EndPAD
+$PAD
+Sh "7" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 2.7
+$EndPAD
+$PAD
+Sh "8" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 2.7
+$EndPAD
+$PAD
+Sh "9" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 -2.7
+$EndPAD
+$PAD
+Sh "10" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 -2.7
+$EndPAD
+$PAD
+Sh "11" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -2.7
+$EndPAD
+$PAD
+Sh "12" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -2.7
+$EndPAD
+$PAD
+Sh "13" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.7
+$EndPAD
+$PAD
+Sh "14" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -2.7
+$EndPAD
+$PAD
+Sh "15" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 -2.7
+$EndPAD
+$PAD
+Sh "16" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 -2.7
+$EndPAD
+$EndMODULE SOIC-16
+$MODULE SOT-23
+Po 0 0 0 15 56C6F57B 00000000 ~~
+Li SOT-23
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.7 1 1 0 0.15 N V 21 N "SOT-23"
+T1 0 -2.5 1 1 0 0.15 N I 21 N "VAL**"
+DS -0.1 0.9 0.1 0.9 0.15 21
+DS 1.8 0.9 1.8 -0.9 0.15 21
+DS 1.8 -0.9 0.8 -0.9 0.15 21
+DS -1.8 0.9 -1.8 -0.9 0.15 21
+DS -1.8 -0.9 -0.8 -0.9 0.15 21
+$PAD
+Sh "1" R 0.802 0.972 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 0.885
+$EndPAD
+$PAD
+Sh "2" R 0.802 0.972 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 0.885
+$EndPAD
+$PAD
+Sh "3" R 0.802 0.972 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.885
+$EndPAD
+$EndMODULE SOT-23
+$EndLIBRARY
