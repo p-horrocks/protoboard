@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 14 Mar 2016 22:23:24 AEDT
+
+BeginCmp
+TimeStamp = /56E56442;
+Reference = C1;
+ValeurCmp = BLANK_8PIN;
+IdModule  = MSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E56429;
+Reference = C2;
+ValeurCmp = BLANK_16PIN;
+IdModule  = SOIC-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E56537;
+Reference = C3;
+ValeurCmp = BLANK_5PIN;
+IdModule  = SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E56871;
+Reference = C4;
+ValeurCmp = BLANK_3PIN;
+IdModule  = SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E559C7;
+Reference = P1;
+ValeurCmp = HEADER_8X1;
+IdModule  = Header_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E559E0;
+Reference = P2;
+ValeurCmp = HEADER_8X1;
+IdModule  = Header_8x1;
+EndCmp
+
+EndListe

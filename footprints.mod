@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 19 Feb 2016 21:59:10 AEDT
+PCBNEW-LibModule-V1  Mon 14 Mar 2016 22:22:33 AEDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,10 +6,13 @@ $INDEX
 5050
 Header_2x1
 Header_4x2
+Header_8x1
+MSOP-8
 Minicast
 SOD-323
 SOIC-16
 SOT-23
+SOT-23-5
 $EndINDEX
 $MODULE 0805
 Po 0 0 0 15 56C6F466 00000000 ~~
@@ -195,6 +198,146 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE Header_4x2
+$MODULE Header_8x1
+Po 0 0 0 15 56E69500 00000000 ~~
+Li Header_8x1
+Sc 0
+AR 
+Op 0 0 0
+T0 -5.08 2.54 1 1 0 0.15 N V 21 N "HEADER_8x1"
+T1 -7.62 -2.54 1 1 0 0.15 N I 21 N "VAL**"
+DS -10.16 -1.27 10.16 -1.27 0.15 21
+DS 10.16 -1.27 10.16 1.27 0.15 21
+DS 10.16 1.27 -10.16 1.27 0.15 21
+DS -10.16 1.27 -10.16 -1.27 0.15 21
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$EndMODULE Header_8x1
+$MODULE MSOP-8
+Po 0 0 0 15 56E69EEA 00000000 ~~
+Li MSOP-8
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.07
+.LocalClearance 0.2
+T0 0 4.445 1 1 0 0.15 N V 21 N "MSOP-8"
+T1 0 -4.445 1 1 0 0.15 N I 21 N "VAL**"
+DA -1.6 0 -1.6 -0.4 900 0.15 21
+DA -1.6 0 -1.2 0 900 0.15 21
+DS -1.6 -2.1 -1.6 2.1 0.15 21
+DS 1.6 -2.1 1.6 2.1 0.15 21
+$PAD
+Sh "1" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 2.1
+$EndPAD
+$PAD
+Sh "2" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 2.1
+$EndPAD
+$PAD
+Sh "3" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 2.1
+$EndPAD
+$PAD
+Sh "4" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 2.1
+$EndPAD
+$PAD
+Sh "5" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 -2.1
+$EndPAD
+$PAD
+Sh "6" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 -2.1
+$EndPAD
+$PAD
+Sh "7" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 -2.1
+$EndPAD
+$PAD
+Sh "8" R 0.4 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 -2.1
+$EndPAD
+$EndMODULE MSOP-8
 $MODULE Minicast
 Po 0 0 0 15 56C6F408 00000000 ~~
 Li Minicast
@@ -386,11 +529,12 @@ Po -4.445 -2.7
 $EndPAD
 $EndMODULE SOIC-16
 $MODULE SOT-23
-Po 0 0 0 15 56C6F57B 00000000 ~~
+Po 0 0 0 15 56E6975E 00000000 ~~
 Li SOT-23
 Sc 0
 AR 
 Op 0 0 0
+.SolderMask 0.07
 T0 0 2.7 1 1 0 0.15 N V 21 N "SOT-23"
 T1 0 -2.5 1 1 0 0.15 N I 21 N "VAL**"
 DS -0.1 0.9 0.1 0.9 0.15 21
@@ -420,4 +564,52 @@ Ne 0 ""
 Po 0 -0.885
 $EndPAD
 $EndMODULE SOT-23
+$MODULE SOT-23-5
+Po 0 0 0 15 56E699CB 00000000 ~~
+Li SOT-23-5
+Sc 0
+AR 
+Op 0 0 0
+.SolderMask 0.07
+T0 0 3.175 1 1 0 0.15 N V 21 N "SOT-23-5"
+T1 0.635 -3.175 1 1 0 0.15 N I 21 N "VAL**"
+DS 1.7 1.4 1.7 -1.4 0.15 21
+DS -1.7 1.4 -1.7 -1.4 0.15 21
+DS -0.2 -1.4 0.2 -1.4 0.15 21
+$PAD
+Sh "1" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.35
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.35
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.35
+$EndPAD
+$PAD
+Sh "4" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.35
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.05 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.35
+$EndPAD
+$EndMODULE SOT-23-5
 $EndLIBRARY
